@@ -1,0 +1,37 @@
+{
+  "monsters": {
+    "grunt": {
+      "speed": 55,
+      "hp": 65,
+      "reward": 7,
+      "leak_penalty": 1,
+      "radius": 15
+    },
+    "runner": {
+      "speed": 90,
+      "hp": 40,
+      "reward": 8,
+      "leak_penalty": 1,
+      "radius": 13
+    },
+    "boss": {
+      "speed": 38,
+      "hp": 550,
+      "reward": 30,
+      "leak_penalty": 3,
+      "radius": 22
+    }
+  },
+  "towers": {
+    "basic": {
+      "price": 50,
+      "damage": 24,
+      "radius": 90,
+      "connect_cost": 10,
+      "fire_cooldown_ms": 1000
+    }
+  },
+  "energy": {
+    "max_link_distance": 170
+  }
+}

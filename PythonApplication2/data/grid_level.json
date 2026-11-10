@@ -1,0 +1,45 @@
+{
+  "level_name": "Sector 23 - Gamma",
+  "path_points": [
+    [ 0, 300 ],
+    [ 150, 300 ],
+    [ 150, 150 ],
+    [ 400, 150 ],
+    [ 400, 450 ],
+    [ 650, 450 ],
+    [ 650, 250 ],
+    [ 780, 250 ]
+  ],
+  "generator": {
+    "x": 6,
+    "y": 6
+  },
+  "start_gold": 100,
+  "base_hp": 10,
+  "grid": {
+    "cell_size": 40,
+    "build_zone": [ 0, 0, 800, 600 ]
+  },
+  "waves": [
+    {
+      "monster": "grunt",
+      "count": 5,
+      "interval": 1.2
+    },
+    {
+      "monster": "grunt",
+      "count": 8,
+      "interval": 1.0
+    },
+    {
+      "monster": "runner",
+      "count": 6,
+      "interval": 0.7
+    },
+    {
+      "monster": "boss",
+      "count": 1,
+      "interval": 2.0
+    }
+  ]
+}
