@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# --- Secrets and Logs (Lab 3) ---
+config.py
+bot_config.enf
+bot_defense.log
+output/
+bot/sessions/
